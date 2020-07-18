@@ -1,0 +1,8 @@
+.container {
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+.form-group {
+  width: 20%;
+}

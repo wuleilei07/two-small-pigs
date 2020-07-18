@@ -1,6 +1,7 @@
 ## Learning Webpack Notes
 
-1. 首先在根目录下创建文件`webpack.config.js`
+1. ~~首先在根目录下创建文件`webpack.config.js`~~
+1. 最后将相关配置文件收束在`/config`目录下
 ```javascript
 module.exports = {
   entry: {
