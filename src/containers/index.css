@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  animation: animations2 1s ease-out 1;
+}
+
+@keyframes animations2 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(120deg);
+  }
+
+  75% {
+    transform: rotate(240deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.App-header {
+  background-color: rgba(179, 215, 255, 0.73);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.welcome:hover {
+  transition: 0.5s ease-in-out;
+  color: #09d3ac;
+}
+
+.btn {
+  background-color: red;
+}
+
+.btn:hover {
+  background-color: rgba(224, 59, 47);
+}
+
+.App-link {
+  color: #09d3ac;
+}
