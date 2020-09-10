@@ -1,9 +1,9 @@
-import React from 'react'
-import { Button } from 'reactstrap'
-import { Link } from 'react-router-dom'
-import logo from '../assets/Smile.png'
-import 'bootstrap/dist/css/bootstrap.css'
-import './index.css'
+import React from "react";
+import { Button } from "reactstrap";
+import { Link } from "react-router-dom";
+import logo from "../assets/Smile.png";
+import "bootstrap/dist/css/bootstrap.css";
+import "./index.css";
 
 function Index() {
   function handleClicked(params) {
@@ -20,7 +20,7 @@ function Index() {
         </Link>
       </header>
     </div>
-  )
+  );
 }
 
-export default Index
+export default Index;
